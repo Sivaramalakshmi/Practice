@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.innerbox{
+    height:120px;
+    width:120px;
+    border:1px solid black;
+    display:flex;
+    font-size:20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
